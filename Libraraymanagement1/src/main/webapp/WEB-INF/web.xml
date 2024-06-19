@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Libraraymanagement1</display-name>
+  <servlet>
+  <servlet-name>lulu</servlet-name>
+  <servlet-class>com.besant.servlet.createservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>lulu</servlet-name>
+  <url-pattern>/f1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>praju</servlet-name>
+  <servlet-class>com.besant.servlet.updateservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>praju</servlet-name>
+  <url-pattern>/f2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name> prajwal</servlet-name>
+  <servlet-class>com.besant.servlet.readservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>prajwal</servlet-name>
+  <url-pattern>/f3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>prajwalcm</servlet-name>
+  <servlet-class>com.besant.servlet.deleteservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>prajwalcm</servlet-name>
+  <url-pattern>/f4</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>prajwalcm1</servlet-name>
+  <servlet-class>com.besant.servlet.getbyidservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>prajwalcm1</servlet-name>
+  <url-pattern>/f5</url-pattern>
+  </servlet-mapping>
+</web-app>
